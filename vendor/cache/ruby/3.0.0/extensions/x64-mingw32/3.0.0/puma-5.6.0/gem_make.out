@@ -1,0 +1,30 @@
+current directory: C:/Users/19lev/OneDrive/Desktop/alpha-blog/vendor/cache/ruby/3.0.0/gems/puma-5.6.0/ext/puma_http11
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20220228-11312-ih7xpt.rb extconf.rb
+checking for whether -fstack-protector-strong -D_FORTIFY_SOURCE=2 is accepted as CFLAGS... yes
+checking for whether -fstack-protector-strong -l:libssp.a is accepted as LDFLAGS... yes
+checking for -lssp... yes
+using OpenSSL pkgconfig (openssl.pc)
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... no
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: C:/Users/19lev/OneDrive/Desktop/alpha-blog/vendor/cache/ruby/3.0.0/gems/puma-5.6.0/ext/puma_http11
+make DESTDIR\= clean
+
+current directory: C:/Users/19lev/OneDrive/Desktop/alpha-blog/vendor/cache/ruby/3.0.0/gems/puma-5.6.0/ext/puma_http11
+make DESTDIR\=
+generating puma_http11-x64-mingw32.def
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: C:/Users/19lev/OneDrive/Desktop/alpha-blog/vendor/cache/ruby/3.0.0/gems/puma-5.6.0/ext/puma_http11
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20220228-11312-h25m5r/puma
