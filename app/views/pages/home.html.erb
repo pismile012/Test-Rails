@@ -4,11 +4,9 @@
     <div class="container-fluid py-5 text-center">
         <h1 class="display-5 fw-bold">Alphe Blog</h1>
         <p>Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <button class="btn btn-success btn-lg" type="button"> <%= link_to "Sign UP", "https://fb.com", class: "text-white"%> </button>
+        <%= link_to "Sign Up", signup_path, class: "btn btn-success btn-lg" %>
     </div>
 </div>
-<%= link_to 'Articles listing', articles_path%>
-<%= link_to 'About us', about_path%>
 </div>
 </div>
 
